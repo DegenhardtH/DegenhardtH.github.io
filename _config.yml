@@ -4,31 +4,31 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://username.github.io"
-baseurl: ""
+#url: "http://DegenhardtH.github.io"
+#baseurl: "http://github.io"
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+url: "http://DegenhardtH.github.io/Networks of Early Socialism"
+baseurl: "http://github.io/Networks of Early Socialism"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Networks of Early Socialism
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: a virtual guide to early socialism in France
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "about"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+    - [International Institute of Social History](https://socialhistory.org/)
+    - [Archives du Féminisme] (http://www.archivesdufeminisme.fr/)
     - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+  [Author's home] (https://github.com/DegenhardtH)
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -64,18 +64,16 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
-
+  name: Hanah-Leah Degenhardt
+  
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: daattali
-  github: daattali
-  twitter: daattali
+  email: "wonttell@example.com"
+  github: [DegenhardtH] (https://github.com/DegenhardtH)
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
@@ -92,14 +90,14 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  google: false
-  linkedin: true
+# twitter: true
+# facebook: true
+# google: false
+# linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "http://github.io/Networks of Early Socialism"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -107,7 +105,7 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 #google_analytics: ""
 
 # Google Tag Manager ID
-#gtm: ""
+# gtm: "University Project"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -127,7 +125,7 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 60
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
@@ -136,11 +134,11 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Vienna/Rome"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+permalink: http://github.io/Networks of Early Socialism /:2018-:04-:10-: Networks of Early Socialism/
+paginate: 6
 
 kramdown:
   input: GFM
