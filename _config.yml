@@ -41,12 +41,12 @@ avatar: " DegenhardtH.github.io/img/Netzwerk_avatar.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#f0efef"
-navbar-text-col: "#77a8a8"
+navbar-col: "#e4d1d1"
+navbar-text-col: "#622569"
 navbar-children-col: "#b0aac0"
 page-col: "#FFFFFF"
 link-col: "#622569"
-hover-col: "##e4d1d1"
+hover-col: "#a2b9bc"
 footer-col: "#f0efef"
 footer-text-col: "#c2d4dd"
 footer-link-col: "#484f4f"
