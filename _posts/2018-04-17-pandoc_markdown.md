@@ -1,20 +1,19 @@
 ---
 layout: post
-title: Pandoc proficient?
+title: Pandoc and markdown
 ---
 
-Let's say we've started to get proficient in helping ourselves.
-For our last assignment, we formatted a document in markdown. Here's an example:
+I tried to convert a txt file with with the help of markdown in pandoc.
 
 ´´´
 ---
 title: |
-    *From*: "Modeling: A Study in Words and Meanings" by Willard McCarty
+    *"Modeling: A Study in Words and Meanings"*
 subtitle: 
 author: Willard McCarty
 date: \today
-bibliography: biblio.bib
-csl: mla.csl
+bibliography: /data/Markdown.bib
+csl: \data\markdown.csl
 ---
 
 > Out on site, you were never parted from your plans. They were your Bible. They got dog-eared, yellowed, smeared with mud, peppered with little holes from where you had unrolled them on the ground. But although so sacred, the plans were only the start. Once you got out there on the site everything was different. No matter how carefully done, the plans could not foresee the variables. It was always interesting, this moment when you saw for the first time the actual site rather than the idealised drawings of it.
@@ -49,6 +48,6 @@ My go-to here was programming historian, because it's quite easy to comprehend.
 
 Here are the semi-formatted files I put out with pandoc:
 
-![DOC](/assets/img/McCarty_Unterpertinger.docx?raw=true)
+![DOC](/data/modeling_mccarthy.docx)
 
-![PDF](/assets/img/McCarty_Unterpertinger.pdf?raw=true)
+![PDF](/data/modeling_mccarthy.pdf)
