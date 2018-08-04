@@ -1,7 +1,13 @@
 ---
 layout: post
-title: First post!
-image: /img/hello_world.jpeg
+title: Command line
+image: /img/degenhardt_codeacademy_completed.jpg
 ---
 
-This is my first post, how exciting!
+
+
+[2] “Off with the Interface!” Getting to know the command line.
+
+I fiinished the codacademy-tutorial 'learn the command line.
+
+Here is a picture of it.
