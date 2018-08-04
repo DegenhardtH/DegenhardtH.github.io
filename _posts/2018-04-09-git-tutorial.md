@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [3]Completed the Learn Git Tutorial
+title: 3 Completed the Learn Git Tutorial
 ---
 
 I completed the Lean Git tutorial from codacademy.
@@ -8,4 +8,4 @@ I completed the Lean Git tutorial from codacademy.
 
 Here's the confirmation screenshot:
 
-![GitTut](Degenhardt_leanGit.jpg)
+![GitTut](DegenhardtH.github.io/img/Degenhardt_leanGit.jpg)

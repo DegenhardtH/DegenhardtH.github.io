@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [2] Command Line Tutorial Completed!
+title: 2 Command Line Tutorial Completed!
 ---
 
 Our first assignment was the command line tutorial on codeacademy.com.
