@@ -12,24 +12,29 @@ bigimg: /img/Netzwerk.jpg
 I had some problems with this Assignement as well and finally got help from my colleague Erika, without her and her boyfriends help I would have been unable to work it out.
 
 
-To import the files from my folder, I used "import os"
-then I positioned the path to the directory I wanted to take the files from.
->>input_path = os.path.relpath(".\\files")
->>output_path = os.path.relpath(".\\res")
+To import the files from my folder, I used "import os".
+Then, I positioned the path to the directory I wanted to take the files from.
+
+>> input_path = os.path.relpath(".\\files")
+>> output_path = os.path.relpath(".\\res")
+
 As told from Erika, I used the command os.listdir to get the files.
->>input_filelist = os.listdir(".\\files")
->>output_filelist = os.listdir(".\\res")
+
+>> input_filelist = os.listdir(".\\files")
+>> output_filelist = os.listdir(".\\res")
+
 Now, it was time to find some regular expressions. The regular expressions I used where: 
->>div3[^<]+article[^<]+>
+>> div3[^<]+article[^<]+>
+
 To open and save the documents, wrote a for loop to store the files in each subfolder :
 
->>for fileName in input_filelist:
->>>with open(".\\files\\" + fileName, 'r', encoding="utf8") as file_in:
->>>>data = file_in.read()
+>> for fileName in input_filelist:
+>>> with open(".\\files\\" + fileName, 'r', encoding="utf8") as file_in:
+>>>> data = file_in.read()
 
 	
->>>with open(".\\res\\" + newfile, 'w', encoding="utf8") as file_out:
->>>>file_out.write(text) 
+>>> with open(".\\res\\" + newfile, 'w', encoding="utf8") as file_out:
+>>>> file_out.write(text) 
 (for the end of the for-loop)
 
 to split the files in articles I defined a variable 'results' using the regular expressions I picked as 're.split("<div3[^<]+article[^<]+>", data)':
