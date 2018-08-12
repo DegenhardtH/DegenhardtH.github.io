@@ -1,6 +1,10 @@
 ---
+
 layout: post
-title: regular expressions---
+
+title: regular expressions
+bigimg: /img/Netzwerk.jpg
+---
 
 
 

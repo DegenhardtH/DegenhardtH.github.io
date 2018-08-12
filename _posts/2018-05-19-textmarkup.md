@@ -55,31 +55,22 @@ That is the code:
 	import re
 	import os
 
-	#define relative path
 	input_path = os.path.relpath(".\\files")
 	output_path = os.path.relpath(".\\res")
 
 	input_filelist = os.listdir(".\\files")
 	output_filelist = os.listdir(".\\res")
 
-	#note to self: identify pattern(s) for articles
-	#Pattern: <div3 type="article" n="4" org="uniform" sample="complete"> at the start of every article
-	#regEx: <div3[^<]+article[^<]+>
-
 	for fileName in input_filelist:
 		with open(".\\files\\" + fileName, 'r', encoding="utf8") as file_in:
 			data = file_in.read()
 	
-		#split files in articles
 		results = re.split("<div3[^<]+article[^<]+>", data)
 	
-		#save each article with numerus currens
 		n = 0
 		for dataNew in results:
 			newfile = fileName + "_" + str(n) + ".xml"
-			#numerus currens
 			n = n + 1
-			#replace xml markup
 			text = re.sub("<[^<]+>", "", dataNew)
 		
 		with open(".\\res\\" + newfile, 'w', encoding="utf8") as file_out:
