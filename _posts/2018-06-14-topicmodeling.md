@@ -38,10 +38,11 @@ Those with limitation of articles:
 
 
 
+In the description of the Assignement it was also mentioned, that we should compare our results with those froom [Rob Nelson][RN link]
+To compare the results is not easy, because I only have the two results with a small number of aticles which topic modelt. 
+What I can see is, that the frequencies of the topic Words differenciate concerning their peaks and lows. 
+But - and that could be interesting, but would require much more indepth research - is, that words of the first Topic ( which could be connected with the description economy and marked) look a little bit similar to the statistics about the 'for hire and wanted adds'; 
+and the second graphic with the topic words concerning gouvernement and union look a liitle bit similar to the fugitive slave adds. But there are still significant differences. Also, to read such statistics, one should have much more knowledge about the context and also about how the statistic data has been required.
 
 
-
-
-
-Publish your observations as a blogpost on your website; compare your results with those
-of Rob Nelson’s Mining the Dispatch ( http://dsl.richmond.edu/dispatch/ ).
+[RN link]: http://dsl.richmond.edu/dispatch/
