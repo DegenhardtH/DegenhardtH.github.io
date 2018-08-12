@@ -1,4 +1,8 @@
----layout: posttitle: Pandoc and Markdownbigimg: /img/Netzwerk.jpg---
+---
+layout: post
+title: Pandoc and Markdown
+bigimg: /img/Netzwerk.jpg
+---
 
 I tried to convert a txt file with with the help of markdown in pandoc.
 

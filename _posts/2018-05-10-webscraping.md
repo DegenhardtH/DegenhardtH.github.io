@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Webscraping with Wgetbigimg: /img/Netzwerk.jpg---
+
+title: Webscraping with Wget
+bigimg: /img/Netzwerk.jpg
+---
+
 I had some huge problems with this one, because the links to download the wget-programme didn't work at my computer. 
 
 finally, I found a link which worked. Here are the directions:

@@ -19,22 +19,22 @@ But I only can analyze those pictures with a limitation of articles.
 
 1:
 those with no limitation:
-![topicmodeling1ba] (/img/dendrogram_of_topics_1b.png)
-![topicmodeling1bb] (/img/tm20_A20_50_iter500_Max10_Topic_1b.png)
+![](/img/dendrogram1b.png)
+![](/img/tm201b.png)
 
 Those with limitation of articles:
-![topicmodeling1aa] (/img/dendrogram_of_topics_1a.png)
-![topicmodeling1ab] (/img/tm20_A20_50_iter500_Max10_Topic_1a.png)
+![topicmodeling1aa](/img/dendrogram1a.png)
+![topicmodeling1ab](/img/tm201a.png)
 
 2:
 Those with no limitation:
-![topicmodeling1ca] (/img/dendrogram_of_topics2b.png)
-![topicmodeling1cb] (/img/tm50_A20_50_iter500_Max10_Topic_2b.png)
+![topicmodeling1ca](/img/dendrogram2b.png)
+![topicmodeling1cb](/img/tm502b.png)
 
 
 Those with limitation of articles:
-![topicmodeling1aa] (/img/dendrogram_of_topics_2a.png)
-![topicmodeling1ab] (/img/tm50_A20_50_iter500_Max10_Topic_2a.png)
+![topicmodeling1aa](/img/dendrogram2a.png)
+![topicmodeling1ab](/img/tm502a.png)
 
 
 
