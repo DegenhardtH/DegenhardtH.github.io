@@ -91,11 +91,3 @@ one should indicate the bibliography-file and the citation within tose lines
 to cite with foodnotes, one uses [^xxx], and to cite a citation, one uses[@...]
 
 ---
-
-Files I put out: 
-![DOC](/img/main.docx)
-
-![PDF](/img/main.pdf)
-
-[bib]:/img/main.bib
-[csl]:/img/mla.csl
