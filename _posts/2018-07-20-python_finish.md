@@ -1,10 +1,10 @@
 ---
 layout: post
 
-title: Learn Python three and four
+title: Learn Python Tutorial finished
 bigimg: /img/Netzwerk.jpg
 
 --- 
-I completed the third and fourth chapters of codacademy's tutorial 'learn python'. here is a confirming screenshot.
+I completed codacademy's tutorial 'learn python'. here is a confirming screenshot.
 
-![phythonOneTwo](/img/Degenhardt_learnPython3-4.jpg)
+![learnpythonfinish](/img/Codacademy_learnpython_completed.jpg)
