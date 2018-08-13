@@ -93,9 +93,9 @@ to cite with foodnotes, one uses [^xxx], and to cite a citation, one uses[@...]
 ´´´
 
 Files I put out: 
-![DOC](/data/main.docx)
+![DOC](/img/main.docx)
 
-![PDF](/data/main.pdf)
+![PDF](/img/main.pdf)
 
-[bib]: /data/main.bib
-[csl]: /data/mla.csl
+[bib]: /img/main.bib
+[csl]: /img/mla.csl
