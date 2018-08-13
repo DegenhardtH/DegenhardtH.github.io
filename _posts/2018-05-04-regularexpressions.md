@@ -25,4 +25,3 @@ I linked everything with |: Vienna|Graz|Linz|Salzburg|Innsbruck|Klagenfurt|Villa
 
 Solution for 2.3:
 \b([\w ]+) \(Lower Austria\)
-
